@@ -9,9 +9,14 @@ import SwiftUI
 
 @main
 struct Novus_The_LaunchApp: App {
+    @StateObject private var userData = UserData()
+       
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            SplashPage()
+                .environmentObject(userData)
+
+               
         }
     }
 }
