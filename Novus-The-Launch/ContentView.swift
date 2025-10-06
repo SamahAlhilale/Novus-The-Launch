@@ -80,7 +80,7 @@ struct ContentView: View {
                 // Today's Activities
                 .padding(.top, 16)
                 HStack {
-                    Text("Today's Activities")
+                    Text("Today's Activity")
                         .font(.system(size: 20, weight: .semibold))
 
                     Spacer()
